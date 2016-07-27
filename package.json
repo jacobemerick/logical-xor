@@ -1,0 +1,17 @@
+{
+  "name": "logical-xor",
+  "version": "0.0.0",
+  "description": "Exclusive or, which returns true only when the inputs differ",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xor",
+    "logical",
+    "exclusive or",
+    "truthiness"
+  ],
+  "author": "Jacob Emerick",
+  "license": "MIT"
+}
