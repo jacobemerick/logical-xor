@@ -1,6 +1,6 @@
 {
   "name": "logical-xor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Exclusive or, which returns true only when the inputs differ",
   "main": "index.js",
   "scripts": {
