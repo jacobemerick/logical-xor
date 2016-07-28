@@ -2,7 +2,7 @@
  * Two-parameter xor function
  */
 function simpleXor(a, b) {
-  return ((!a && b) || (a && !b));
+  return !!((!a && b) || (a && !b));
 }
 
 /**
@@ -29,7 +29,7 @@ module.exports = function exposedXor() {
   }
 
   if (parameters.length === 1) {
-    return parameters.shift();
+    return !!parameters.shift();
   }
 
   return multiXor(parameters);
